@@ -13,7 +13,6 @@ buttons.forEach(function(button){
         }
         else if (button.className === "result"){
             computable.textContent = eval(computable.textContent);
-            
         }
         else{
             computable.textContent = ""
